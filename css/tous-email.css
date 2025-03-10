@@ -142,9 +142,6 @@ table.button.button-buy table td {
 a, a:hover {
     color: black;
 }
-.footer-row.find-points {
-    /* padding: 0 160px; */
-}
 .footer-row.find-points .search-image {
     width: 25px;
     height: 25px;
