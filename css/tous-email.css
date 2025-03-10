@@ -1,0 +1,223 @@
+@import url('_fonts.css');
+
+/* tous styles */
+
+.bg-image {
+    background-image: url('../images/background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.subtitle {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    text-transform: uppercase;
+    line-height: 114%;
+}
+.subtitle span {
+    font-family: "Tous", sans-serif;
+    font-weight: bold;
+}
+.title {
+    font-family: "Tous", sans-serif;
+    font-size: 44px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 1.45;
+}
+th.columns.main {
+    padding-bottom: 0;
+}
+th.offer-row, td.offer-row {
+    background-color: black;
+}
+th.offer-row p, td.offer-row p {
+    font-family: "Roboto Bold", sans-serif;
+    font-size: 14px;
+    letter-spacing: 1.6px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 0;
+    padding-top: 2px;
+}
+p.body-text {
+    font-family: "Helvetica", sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+    padding: 0 20px;
+}
+p.body-text span {
+    font-weight: bold;
+}
+.button.button-buy td a {
+    font-family: "Helvetica", sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    border-radius: 100px;
+    padding: 9px 9px 7px;
+}
+table.button.button-buy table td {
+    background-color: transparent;
+    border: none;
+    width: 170px;
+}
+.items-list {
+    padding: 0 80px;
+}
+.items-list .items-list-name p {
+    font-family: "Roboto", sans-serif;
+    font-size: 11px;
+    line-height: 15px;
+    max-width: 170px;
+    margin-bottom: 0;
+}
+.items-list .items-list-price {
+    width: 32px;
+}
+.items-list .items-list-price p {
+    font-family: "Roboto Bold", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+.items-list .items-list-quantity {
+    text-align: right;
+}
+.items-list .items-list-quantity span {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    color: #565656;
+}
+.items-list-separator td {
+    border-bottom: 1px solid #DADADA;
+    height: 5px;
+    margin-bottom: 10px;
+}
+.items-list-separator.no-border td {
+    border-bottom: none;
+}
+.items-list-separator-space td {
+    height: 25px;
+}
+.qr-section {
+    background-color: white;
+    padding: 0 40px;
+}
+.qr-section .qr-section--image {
+    width: 130px;
+    height: 130px;
+}
+.qr-section .qr-section--text .qr-section--text__title {
+    font-family: "Tous", sans-serif;
+    font-size: 44px;
+    line-height: 44px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 16px;
+}
+.qr-section .qr-section--text .qr-section--text__description.desktop, .qr-section--text__description.mobile {
+    font-family: "Helvetica", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+.qr-section--text__description.mobile {
+    display: none;
+}
+.footer-row {
+    background-color: white;
+    padding: 0 20px;
+}
+.footer-row td {
+    text-align: center;
+}
+.footer-row td a {
+    font-family: "Helvetica Bold", sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+a, a:hover {
+    color: black;
+}
+.footer-row.find-points {
+    /* padding: 0 160px; */
+}
+.footer-row.find-points .search-image {
+    width: 25px;
+    height: 25px;
+}
+.footer-row.find-points .search-text {
+    text-align: start;
+}
+.footer-row.find-points .search-text a {
+    font-family: "Helvetica", sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    padding-top: 5px;
+    margin-left: 15px;
+}
+.footer-row.social-links td, .footer-row.social-links td a {
+    width: 60px !important;
+    height: 32px;
+}
+.footer-row.social-links td a img {
+    margin: 0 auto;
+}
+.footer-row.offers {
+    padding: 0 10px;
+}
+.footer-row.offers .offers-image img {
+    margin: 0 auto;
+}
+.footer-row.offers .offers-text p {
+    font-family: "Helvetica", sans-serif;
+    font-size: 11px;
+    line-height: 13px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.footer-row.download-app {
+    padding: 0 ;
+}
+.footer-row.download-app .download-app--gif {
+    height: 100%;
+}
+.footer-row.download-app .download-app--image {
+    padding: 0 20px;
+}
+.footer-row.download-app .download-app--image a img.img-app-store{
+    margin-left: auto;
+}
+.look-images {
+    padding: 0 40px;
+    background-color: white;
+}
+.look-images td {
+    width: 230px;
+}
+.look-images td img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+table.spacer.white {
+    background-color: #fff;
+}
+
+@media screen and (max-width: 580px) {
+    .qr-section--text__description.desktop {
+        display: none;
+    }
+    .qr-section--text__description.mobile {
+        display: block;
+        margin-left: 10px;
+    }
+}
+@media screen and (max-width: 420px) {
+    .qr-section {
+        padding: 0 20px;
+    }
+}
