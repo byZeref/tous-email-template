@@ -194,7 +194,10 @@ a, a:hover {
 }
 .look-images td {
     width: 230px;
-    min-height: 400px;
+    height: 400px;
+}
+.look-images td.alone {
+    height: 800px;
 }
 .look-images td[colspan="2"] {
     height: 400px;
@@ -217,8 +220,11 @@ table.spacer.white {
         margin-left: 10px;
     }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 450px) {
     .qr-section {
+        padding: 0 20px;
+    }
+    .look-images {
         padding: 0 20px;
     }
 }
