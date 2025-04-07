@@ -195,10 +195,13 @@ a, a:hover {
 }
 .look-images td {
     width: 230px;
-    height: 400px;
+    height: 380px;
 }
 .look-images td.alone {
-    height: 800px;
+    height: 700px;
+}
+.look-images td.three {
+    height: 280px;
 }
 .look-images td[colspan="2"] {
     height: 400px;
